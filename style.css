@@ -1,0 +1,71 @@
+/* styles.css */
+#contador {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+    color:white;
+}
+
+#contador2 {
+
+  font-size:large;
+  text-align:center;
+  color:aqua;
+
+}
+
+body {
+    background-image: url('img/papel.jpg'); /* URL da imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra toda a tela */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o preenchimento padrão do body */
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+text-align:  center;
+
+
+}
+
+#formulario
+{
+    margin-top: 500px;
+    color:white;
+    bottom: 20px; /*coloca o link do formulario na parte inferior da tela*/
+    position: absolute; /* faz o link flutuar*/
+    left: 50%; /* Move o link para a metade da tela */
+    transform: translateX(-50%); /* Centraliza o link */
+}
+
+/* styles.css */
+
+/* Cor do link normal */
+a {
+    color:aqua;
+    text-decoration: none; /* Remove o sublinhado padrão */
+    transition: color 0.3s ease; /* Transição suave da cor */
+}
+
+/* Cor do link visitado */
+a:visited {
+    color:aqua;
+}
+
+/* Cor do link ao passar o mouse */
+a:hover {
+    color: red;
+}
+
+/* Cor do link quando clicado */
+a:active {
+    color: green;
+}

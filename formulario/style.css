@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    text-align: center; 
+}
+input {
+
+    display:block;
+    width: 30;
+    margin:auto
+}
+
+body {
+
+    background-image: url(form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+button {
+    display:block;
+    margin:auto;
+    margin-top:10px;
+}
+/* Estilo do resultado */
+.result {
+    margin-top: 20px; /* Espaçamento acima do resultado */
+    padding: 10px; /* Espaçamento interno */
+    width: 100%; /* Ocupa toda a largura disponível */
+    text-align: center; /* Centraliza o texto dentro do resultado */
+    color:black
+}
