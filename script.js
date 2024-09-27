@@ -16,5 +16,5 @@ function atualizarContador() {
 setInterval(atualizarContador, 1000);
 
 function alerthello() {
-    alert("clique no link abaixo para ir para o meu site de cadastro");
+    alert("Clique no Link abaixo para entrar na pagina de preenchimento do formulario");
 }
