@@ -16,4 +16,7 @@ form.addEventListener("submit", function(event) {
     resultDiv.innerHTML = `<p><strong>Nome:</strong> ${nome}</p>
                            <p><strong>Idade:</strong> ${idade}</p>
                            <p><strong>Turma:</strong> ${turma}</p>`;
+
+    // Exibe o resultado
+    resultDiv.style.display = 'block';
 });

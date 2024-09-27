@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 h1 {
     text-align: center; /* Centraliza o texto dentro do elemento */
-    color: #333; /* Define a cor do texto */
+    color: #eee8e8; /* Define a cor do texto */
 }
 
 label {
 display: block; /* Transforma o elemento em um bloco, ocupando toda a largura disponível */
 margin: 15px 0 5px; /* Define margens: 15px acima, 0 à esquerda e direita, e 5px abaixo */
 text-align: center;  /* Centraliza o texto dentro do elemento */
+color:#eee8e8
 }
 input {
 display: block; /* Transforma o elemento em um bloco, ocupando toda a largura disponível */
@@ -34,10 +36,15 @@ margin: auto; /* Centraliza o elemento horizontalmente em relação ao seu cont�
 margin-top: 10px; /* Adiciona uma margem de 10 pixels na parte superior do elemento */
 }
 /* Estilo do resultado */
-.result {
-    margin-top: 20px; /* Espaçamento acima do resultado */
-    padding: 10px; /* Espaçamento interno */
-    width: 100%; /* Ocupa toda a largura disponível */
-    text-align: center; /* Centraliza o texto dentro do resultado */
-    color:black /* Define a cor do texto */
-}
+    .result {
+        margin: 20px auto; /* Espaçamento acima e centraliza horizontalmente */
+        padding: 10px; /* Espaçamento interno */
+        width: 80%; /* Ajuste a largura conforme necessário */
+        max-width: 200px; /* Limita a largura máxima */
+        text-align: center; /* Centraliza o texto dentro do resultado */
+        color: rgb(245, 242, 242); /* Define a cor do texto */
+        background-color: rgba(246, 246, 247, 0); /* Cor de fundo com transparência */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+        font-family: "Montserrat", sans-serif;
+    }
+

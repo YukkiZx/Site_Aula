@@ -1,48 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formulário</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Título do formulário -->
-<h1>Preencha o Formulário</h1>
+    <h1>Preencha o Formulário:</h1>
 
-<!-- Container para o formulário -->
-<div class="form-container">
+    <!-- Container para o formulário -->
+    <div class="form-container">
 
-    <!-- Início do formulário -->
-    <form id="form">
-    
-        <!-- Rótulo para o campo de Nome -->
-        <label for="nome">Nome:</label>
+        <!-- Início do formulário -->
+        <form id="form">
         
-        <!-- Campo de texto para o nome, obrigatório (required) -->
-        <input type="text" id="nome" name="nome" required>
-        
-        <!-- Rótulo para o campo de Idade -->
-        <label for="idade">Idade:</label>
-        
-        <!-- Campo de número para idade, obrigatório (required) -->
-        <input type="number" id="idade" name="idade" required>
+            <!-- Rótulo para o campo de Nome -->
+            <label for="nome">Nome:</label>
+            <!-- Campo de texto para o nome, obrigatório (required) -->
+            <input type="text" id="nome" name="nome" required>
+            
+            <!-- Rótulo para o campo de Idade -->
+            <label for="idade">Idade:</label>
+            <!-- Campo de número para idade, obrigatório (required) -->
+            <input type="number" id="idade" name="idade" required>
 
-        <!-- Rótulo para o campo de Turma -->
-        <label for="turma">Turma:</label>
-        
-        <!-- Campo de texto para turma, obrigatório (required) -->
-        <input type="text" id="turma" name="turma" required>
+            <!-- Rótulo para o campo de Turma -->
+            <label for="turma">Turma:</label>
+            <!-- Campo de texto para turma, obrigatório (required) -->
+            <input type="text" id="turma" name="turma" required>
 
-        <!-- Botão para enviar o formulário -->
-        <button type="submit">Enviar</button>
-    </form>
+            <!-- Botão para enviar o formulário -->
+            <button type="submit">Enviar</button>
+        </form>
 
-    <!-- Div para exibir o resultado após o envio -->
-    <div id="result" class="result"></div>
-</div>
+        <!-- Div para exibir o resultado após o envio -->
+        <div id="result" class="result" style="display: none;"></div>
+    </div>
 
-<!-- Inclusão de um arquivo JavaScript externo -->
-<script src="./script.js"></script>
+    <!-- Inclusão de um arquivo JavaScript externo -->
+    <script src="script.js"></script>
 </body>
 </html>
