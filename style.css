@@ -1,17 +1,15 @@
 /* styles.css */
 #contador {
-    font-size: 2em;
-    margin-bottom: 10px;
-    text-align: center;
-    color:white;
+font-size: 2em; /* Define o tamanho da fonte como 2 vezes o tamanho padrão */
+margin-bottom: 10px; /* Adiciona uma margem externa de 10px na parte inferior do elemento */
+text-align: center; /* Alinha o texto dentro do elemento ao centro horizontalmente */
+color: white; /* Define a cor do texto */
 }
 
 #contador2 {
-
-  font-size:large;
-  text-align:center;
-  color:aqua;
-
+  font-size: large; /* Define o tamanho da fonte como "large", que é maior que o tamanho padrão */
+  text-align:center; /* Alinha o texto dentro do elemento ao centro horizontalmente */
+  color:aqua; /* Define a cor do texto */
 }
 
 body {
@@ -24,22 +22,21 @@ body {
     font-family: Arial, sans-serif; /* Define a fonte padrão */
 }
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+height: 100%; /* Define que a altura do elemento será de 100% em relação ao seu elemento pai */
+margin: 0; /* Remove qualquer margem externa ao redor do elemento */
+padding: 0; /* Remove qualquer preenchimento interno dentro do elemento */
+overflow: hidden; /* Remover a rolagem vertical e horizontal */
 }
 
 body
 {
-text-align:  center;
-
-
+text-align: center; /* Alinha o texto ou conteúdo dentro do elemento ao centro horizontalmente */
 }
 
 #formulario
-{
-    margin-top: 500px;
-    color:white;
+{    
+margin-top: 500px; /* Adiciona um espaço de 500px no topo do elemento */
+color: white; /* Define a cor do texto como branca */
     bottom: 20px; /*coloca o link do formulario na parte inferior da tela*/
     position: absolute; /* faz o link flutuar*/
     left: 50%; /* Move o link para a metade da tela */
@@ -50,7 +47,7 @@ text-align:  center;
 
 /* Cor do link normal */
 a {
-    color:aqua;
+    color:aqua; /* Define a cor do texto */
     text-decoration: none; /* Remove o sublinhado padrão */
     transition: color 0.3s ease; /* Transição suave da cor */
 }

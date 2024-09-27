@@ -1,35 +1,37 @@
 h1 {
-    text-align: center;
-    color: #333;
+    text-align: center; /* Centraliza o texto dentro do elemento */
+    color: #333; /* Define a cor do texto */
 }
 
 label {
-    display: block;
-    margin: 15px 0 5px;
-    text-align: center; 
+display: block; /* Transforma o elemento em um bloco, ocupando toda a largura disponível */
+margin: 15px 0 5px; /* Define margens: 15px acima, 0 à esquerda e direita, e 5px abaixo */
+text-align: center;  /* Centraliza o texto dentro do elemento */
 }
 input {
+display: block; /* Transforma o elemento em um bloco, ocupando toda a largura disponível */
+width: 30; /* Define a largura do elemento, mas falta a unidade (ex: px, %); deve ser algo como 'width: 30px;' */
+margin: auto; /* Centraliza o elemento horizontalmente dentro do seu contêiner pai */
+}
 
-    display:block;
-    width: 30;
-    margin:auto
+html, body {
+    overflow: hidden; /* Remove ambas as rolagens */
 }
 
 body {
-
-    background-image: url(form.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+background-image: url(form.jpg); /* Define uma imagem de fundo a partir do arquivo 'form.jpg' */
+background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+background-size: cover; /* Faz a imagem de fundo cobrir completamente o elemento, mantendo as proporções */
+background-position: center; /* Centraliza a imagem de fundo no elemento */
+margin: 0; /* Remove todas as margens do elemento */
+padding: 0; /* Remove todo o preenchimento interno do elemento */
+height: 100vh; /* Define a altura do elemento para 100% da altura da viewport */
 }
 
 button {
-    display:block;
-    margin:auto;
-    margin-top:10px;
+display: block; /* Define o elemento como um bloco, fazendo com que ocupe toda a largura disponível */
+margin: auto; /* Centraliza o elemento horizontalmente em relação ao seu contêiner pai */
+margin-top: 10px; /* Adiciona uma margem de 10 pixels na parte superior do elemento */
 }
 /* Estilo do resultado */
 .result {
@@ -37,5 +39,5 @@ button {
     padding: 10px; /* Espaçamento interno */
     width: 100%; /* Ocupa toda a largura disponível */
     text-align: center; /* Centraliza o texto dentro do resultado */
-    color:black
+    color:black /* Define a cor do texto */
 }
